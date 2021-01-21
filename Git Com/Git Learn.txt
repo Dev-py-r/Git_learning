@@ -1,0 +1,202 @@
+Git & GitHub
+Distibution Version control
+
+$ git config --global user.name Dev
+
+$ git init
+
+$ ls -lart
+
+$ git status
+
+Untracked / Unmodified / Modified / Staged
+
+Add the file > staged > Commit > Unmodified >Remove the file/Edit the file> Modified > Stage the file > Staged > Commit
+
+git add index.html
+
+git status
+
+git commit
+
+Initial commit
+
+Escape
+:wq
+
+touch about.html
+
+touch contact.html
+
+touch monuments.html
+
+git status
+
+git add -A
+
+git status
+
+$ git commit -m "Added more htmls"
+
+clear
+
+$ git checkout contact.html
+
+
+$ git checkout -f
+
+
+$ git log
+
+$git log -p -1
+
+q
+
+$ git diff
+
+$ git add -A
+
+$ git diff
+
+$ git diff --staged
+
+$ git checkout -f
+
+$ git status
+
+$ git commit -a -m "skipped staging area and fixed
+
+$ls
+
+$ touch waste.html
+
+$ ls
+
+$ git commit -a -m "Adding waste"
+
+$ git rm --cached waste.html
+rm 'waste.html'
+
+$git add -A
+
+$ git rm waste.html
+rm 'waste.html'
+
+$ git commit -a -m "Removing waste"
+
+$ git log -p -2
+
+q
+
+$ git status -s
+
+$ git add contact.html
+
+$ git status -s
+
+$ touch .gitignore
+
+$ git checkout about
+
+$ touch mylogs.logs
+
+$ git commit -a -m "ignored some files and add gitignore"
+
+/mylogs.log
+
+*.log
+
+$ git rm --cached 'My logs/mylogs.log'
+
+ignore/
+
+$ git commit -a -m "commit message"
+
+$ git log -p -2
+
+#Branches
+
+$ git branch feature1
+
+$git branch
+
+$git checkout feature1
+
+$git status
+
+$git add -A
+
+$git commit -m "Fixed extra brackets"
+
+$git status
+
+$git checkout master
+
+$git checkout feature1
+
+$git commit -a -m "Added comment"
+
+$git status
+
+$git checkout master
+
+$git status
+
+$git checkout feature1
+
+$git status
+
+$git checkout master
+
+git log -p -2
+
+git merge feature1
+
+git log -p -2
+
+clear
+
+$git branch
+
+$git checkout feature1
+
+$git branch
+
+$git checkout master
+
+$git checkout -b 'flaskIntegration'
+
+$git branch
+
+$git status
+
+$git add -A
+
+$git commit -m "Added flask minimal file"
+
+$git checkout master
+
+$ git status
+
+$git commit -a -m "Modified about"
+
+$ git status
+
+$ git checkout flaskIntegration
+
+#remort repository
+
+#from github
+
+$git remote add origin https://github.com/Dev-py-r/Full_ML.git
+
+$ git remote
+
+$git remote -v
+
+$git push origin master
+
+#Go to settings
+
+SSH key
+
